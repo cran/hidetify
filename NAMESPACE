@@ -1,0 +1,13 @@
+useDynLib(hidetify, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom(MASS, mvrnorm)
+import(stats)
+
+export(ease_masking)
+export(ease_swamping)
+export(hidetify)
+export(mhidetify)
+export(shidetify)
+export(vhidetify)
+
+
